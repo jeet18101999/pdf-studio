@@ -1,0 +1,22 @@
+# Build output (installers go on the GitHub Releases page, not in the repo)
+build/
+dist/
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Never commit signing keys or personal files
+*.pfx
+*.p12
+*.key
+.env
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
